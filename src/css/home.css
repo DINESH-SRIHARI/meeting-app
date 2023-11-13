@@ -1,0 +1,19 @@
+img{
+    
+    width: 500px;
+    text-align: center;
+}
+.imag{
+    margin: 100px auto;
+    width: 600px;
+}
+.span{
+    background: #CF08C2;
+background: linear-gradient(to right, #CF08C2 21%, #05C1FF 60%, #CFB406 79%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.cente{
+    text-align: center;
+}

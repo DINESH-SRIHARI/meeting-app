@@ -1,0 +1,25 @@
+.main{
+    background-color: #22092C;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: #bb788c;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #22092C;
+}
+.link:hover{
+    background-color: #F05941;
+    color: black;
+}
+.gap{
+    display: flex;
+    gap:80px;
+    background-color: #22092C;
+}

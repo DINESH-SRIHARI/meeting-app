@@ -1,0 +1,25 @@
+.data{
+    width: 300px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-top: 30px;
+    transition: 1s;
+}
+.img{
+   
+    width: 100%;
+    border-radius: 12px;
+}
+.data:hover{
+    transform: translateY(-20px);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time{
+    margin: 0px;
+    font-weight:500;
+}

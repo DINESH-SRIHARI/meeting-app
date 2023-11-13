@@ -1,0 +1,10 @@
+.meeting-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    transition: 1s;
+}
+.meeting-container:hover{
+   
+}
