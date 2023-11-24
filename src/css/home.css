@@ -1,6 +1,4 @@
 img{
-    
-    width: 500px;
     text-align: center;
 }
 .imag{
@@ -16,4 +14,14 @@ background: linear-gradient(to right, #CF08C2 21%, #05C1FF 60%, #CFB406 79%);
 }
 .cente{
     text-align: center;
+}
+@media (min-width:430px) {
+    img{
+        width: 500px;
+    }
+}
+@media (max-width:430px) {
+    img{
+        width:360px;
+    }
 }

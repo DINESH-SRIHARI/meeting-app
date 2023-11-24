@@ -1,6 +1,6 @@
 .met{
     
-    width: 600px;
+   
     margin: 50px auto;
     border-radius: 12px;
     padding: 4px;
@@ -8,9 +8,7 @@
 .add{
      border: 1px solid green;
 }
-*{
-    background-color: #ecdae0;
-}
+
 input{
     width: 100%;
     margin-bottom: 6px;
@@ -68,4 +66,9 @@ textarea{
   }
    @keyframes rotate {
     100%{    transform: rotate(360deg)}
+  }
+  @media (min-width:430px) {
+    .met{
+        width: 600px;
+    }
   }

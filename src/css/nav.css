@@ -4,8 +4,10 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
     align-items: center;
+}
+*{
+    background-color: #ecdae0;
 }
 .link{
     text-decoration: none;
@@ -18,8 +20,47 @@
     background-color: #F05941;
     color: black;
 }
-.gap{
-    display: flex;
-    gap:80px;
+.iconn{
     background-color: #22092C;
+}
+.gap{
+   
+    background-color: #22092C;
+}
+
+@media (min-width:430px) {
+    .gap{
+        gap:80px;
+        display: flex;
+    }
+    .iconn{
+        display: none;
+    }
+}
+@media (max-width:430px) {
+    .gap{
+        display: none;
+    }
+    .iconn{
+        display: block;
+        align-items: center;
+        cursor: pointer;
+    }
+    .gap2{
+        display: none;
+        
+    }
+    .gap2 link{
+        margin-bottom: 6px;
+    }
+    .parent :hover >.gap2{
+        cursor: pointer;
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+       margin-left: -100px;
+    }
+    
 }
