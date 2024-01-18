@@ -40,7 +40,7 @@ function PastMeets() {
                     day: 'numeric',
                   };
                   let time=(event.toLocaleDateString('en', options))
-                return <Data title={meeting.title} img={meeting.image} time={time} message={meeting.message}/>;
+                return <Data title={meeting.title} img={meeting.image} time={time} message={meeting.message} link={meeting.link}/>;
             })
         }
             
